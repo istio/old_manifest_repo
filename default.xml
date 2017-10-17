@@ -7,10 +7,10 @@
   <default remote="github" revision="master" sync-j="4"  />
 
   <!-- Istio go components -->
-  <project path="go/src/istio.io/istio" name="istio/istio"/>
-  <project path="go/src/istio.io/pilot" name="istio/pilot"/>
-  <project path="go/src/istio.io/mixer"  name="istio/mixer" />
-  <project path="go/src/istio.io/auth" name="istio/auth"/>
-  <project path="go/src/istio.io/proxy" name="istio/proxy" />
+  <project path="go/src/istio.io/istio" name="istio/istio" revision="release-0.2"/>
+  <project path="go/src/istio.io/pilot" name="istio/pilot"  revision="release-0.2"/>
+  <project path="go/src/istio.io/mixer"  name="istio/mixer" revision="release-0.2"/>
+  <project path="go/src/istio.io/auth" name="istio/auth" revision="release-0.2"/>
+  <project path="go/src/istio.io/proxy" name="istio/proxy" revision="release-0.2"/>
 
 </manifest>
