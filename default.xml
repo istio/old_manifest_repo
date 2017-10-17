@@ -2,7 +2,7 @@
 <manifest>
   <!-- Git repositories. This is a relative path, based on the '-u' parameter
    -->
-  <remote name="github" fetch="../.."/>
+  <remote name="github" fetch="../../.."/>
 
   <default remote="github" revision="master" sync-j="4"  />
 
