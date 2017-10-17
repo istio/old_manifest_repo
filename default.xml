@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Git repositories. This is a relative path, based on the '-u' parameter
+   -->
+  <remote name="github" fetch="../.."/>
+
+  <default remote="github" revision="master" sync-j="4"  />
+
+  <!-- Istio go components -->
+  <project path="go/src/istio.io/istio" name="istio/istio"/>
+  <project path="go/src/istio.io/pilot" name="istio/pilot"/>
+  <project path="go/src/istio.io/mixer"  name="istio/mixer" />
+  <project path="go/src/istio.io/auth" name="istio/auth"/>
+  <project path="go/src/istio.io/proxy" name="istio/proxy" />
+
+</manifest>
