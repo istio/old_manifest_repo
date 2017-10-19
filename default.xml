@@ -14,7 +14,7 @@
   <project path="go/src/istio.io/proxy" name="istio/proxy" />
 
   <!-- New experimental merged auth+mixer+pilot -->
-  <project path="go/src/istio.io/proxy" name="mandarjog/core2" />
+  <project path="go/src/istio.io/core" name="mandarjog/core" />
 
 
 </manifest>
