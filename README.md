@@ -21,3 +21,12 @@
   repo sync -c 
   
 ```
+
+# Fetching a different branch
+
+```bash
+
+
+  repo init -u https://github.com/istio/manifest -b release-0.2
+  repo sync -c 
+```
