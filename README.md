@@ -11,8 +11,8 @@
   chmod a+x ~/bin/repo
   
   # Workdir for istio  
-  mkdir istio
-  cd istio
+  mkdir MY_ISTIO_SRC_DIR
+  cd MY_ISTIO_SRC_DIR
   
   git config --global user.name "Your Name"
   git config --global user.email "you@example.com"
