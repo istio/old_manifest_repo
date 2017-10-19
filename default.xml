@@ -11,7 +11,9 @@
   <project path="go/src/istio.io/pilot" name="istio/pilot"/>
   <project path="go/src/istio.io/mixer"  name="istio/mixer" />
   <project path="go/src/istio.io/auth" name="istio/auth"/>
-  <project path="go/src/istio.io/proxy" name="istio/proxy" />
+  
+  <!-- C++ code under src, to avoid poluting the go source path -->
+  <project path="src/proxy" name="istio/proxy" />
 
   <!-- New experimental merged auth+mixer+pilot -->
   <project path="go/src/istio.io/core" name="mandarjog/core" />
