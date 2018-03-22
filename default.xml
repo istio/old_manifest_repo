@@ -12,15 +12,9 @@
   <!-- Istio go components -->
   <project path="go/src/istio.io/api" name="istio/api"/>
   <project path="go/src/istio.io/istio" name="istio/istio"/>
-  <project path="go/src/istio.io/test-infra" name="istio/test-infra"/>
-  <project path="go/src/istio.io/fortio" name="istio/fortio"/>
 
+  
   <!-- C++ code under src, to avoid poluting the go source path -->
   <project path="src/proxy" name="istio/proxy"/>
-
-  <!-- Direct proxy dependencies.
-       Mixerclient may be merged with proxy -->
-  <project path="src/envoy" name="envoyproxy/envoy"/>
-  <project path="src/mixerclient" name="istio/mixerclient"/>
 
 </manifest>
