@@ -12,6 +12,7 @@
   <!-- Istio go components -->
   <project path="go/src/istio.io/api" name="istio/api"/>
   <project path="go/src/istio.io/istio" name="istio/istio"/>
+  <project path="go/src/istio.io/vendor-istio" name="istio/vendor-istio"/>
 
   
   <!-- C++ code under src, to avoid poluting the go source path -->
